@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$$fpuf6s%hob$j89@wfwb&9)f1l*!&r8j8a6=(6(n4j#vw2hej
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://salary-predictor-backend.onrender.com/'
+    'salary-predictor-backend.onrender.com'
 ]
 
 # Application definition
