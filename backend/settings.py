@@ -41,7 +41,8 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Add your React frontend's URL
+    "http://localhost:3000", 
+    "https://salary-predictor-iyid.onrender.com/" # Add your React frontend's URL
 ]
 
 MIDDLEWARE = [
