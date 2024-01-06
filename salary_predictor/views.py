@@ -130,7 +130,7 @@ def ml(request):
     model = joblib.load(open('model/model.joblib', 'rb'))
     # model = pickle.load(open('model/model.pickle', 'rb'))
     
-    result = model.predict([[0,
+    result = model.predict([[
                              experienceLevel, 
                              employmentType, 
                              workingType, 
