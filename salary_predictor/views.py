@@ -41,10 +41,12 @@ def ml(request):
     y2022 = y2021 = y2020 = 0
     workYear = data.get('workYear')
     if workYear == '2023':
-        y2022 = 1
+        y2023 = 1
     elif workYear == '2022':
-        y2021 = 1
+        y2022 = 1
     elif workYear == '2021':
+        y2021 = 1
+    elif workYear == '2020':
         y2020 = 1
      
      
@@ -137,6 +139,7 @@ def ml(request):
                              y2020, 
                              y2021, 
                              y2022, 
+                             y2023,
                              AI_Engineer,
                              BI_BA_Engineer,
                              Cloud_Engineer,
