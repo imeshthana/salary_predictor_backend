@@ -130,8 +130,7 @@ def ml(request):
     model = joblib.load(open('model/model.joblib', 'rb'))
     # model = pickle.load(open('model/model.pickle', 'rb'))
     
-    result = model.predict([[
-                             experienceLevel, 
+    result = model.predict([[experienceLevel, 
                              employmentType, 
                              workingType, 
                              companySize, 
@@ -144,6 +143,7 @@ def ml(request):
                              Data_Analyst,
                              Data_Engineer,
                              Data_Scientist,
+                             Deep_Learning_Engineer,
                              ML_Engineer,
                              Others,
                              AUD,
