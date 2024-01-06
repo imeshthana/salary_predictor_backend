@@ -38,7 +38,7 @@ def ml(request):
     
     
     # Work Year
-    y2022 = y2021 = y2020 = 0
+    y2023 = y2022 = y2021 = y2020 = 0
     workYear = data.get('workYear')
     if workYear == '2023':
         y2023 = 1
