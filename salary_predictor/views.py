@@ -127,8 +127,8 @@ def ml(request):
     else:
         Other_country = 1
 
-    # model = joblib.load(open('model/model.joblib', 'rb'))
-    model = pickle.load(open('model/model.pickle', 'rb'))
+    model = joblib.load(open('model/model.joblib', 'rb'))
+    # model = pickle.load(open('model/model.pickle', 'rb'))
     
     result = model.predict([[0,
                              experienceLevel, 
