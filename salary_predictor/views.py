@@ -166,10 +166,10 @@ def ml(request):
                              US]])
     
     #print(jobTitle)
-    # result_list = result.tolist()
-    predicted_salary = np.exp(result)
+    result_list = result.tolist()
+    # predicted_salary = np.exp(result)
 
-    result_list = predicted_salary.tolist()
+    # result_list = predicted_salary.tolist()
     
     return JsonResponse({'prediction': result_list[0]})
     
